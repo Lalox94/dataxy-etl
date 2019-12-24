@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dataxy-etl.iml" filepath="$PROJECT_DIR$/.idea/modules/dataxy-etl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dataxy-etl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/dataxy-etl-build.iml" />
-    </modules>
-  </component>
-</project>
