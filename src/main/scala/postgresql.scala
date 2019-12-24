@@ -26,8 +26,7 @@ object postgresql {
       val sparkDF = sparkReadDF(spark, query1, url, connectionProperties)
 
       println(sparkDF.show())
-      sparkDF.write.csv("data")
-
+      sparkDF.write.format("com.databricks.spark.csv").option("header", "true").save("data")
       spark.close()
       sc.stop()
 
