@@ -12,6 +12,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-mllib" % sparkVersion,
   "org.apache.spark" %% "spark-streaming" % sparkVersion,
   "org.apache.spark" %% "spark-hive" % sparkVersion,
-  "mysql" % "mysql-connector-java" % "5.1.6",
-  "org.postgresql" % "postgresql" % "42.2.2"
+  "org.postgresql" % "postgresql" % "42.2.2",
+  "com.datastax.spark" %% "spark-cassandra-connector" % "2.3.0"
 )
+
